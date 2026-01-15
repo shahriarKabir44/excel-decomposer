@@ -1,12 +1,15 @@
 {
-  "name": "excel-decomposer",
+  "name": "xl-chunker",
   "version": "1.0.0",
   "description": "Stream massive Excel files to CSV chunks",
   "main": "index.js",
+  "bin": {
+    "xl-chunker": "./index.js"
+  },
+  "keywords": [],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
